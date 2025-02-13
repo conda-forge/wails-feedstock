@@ -1,5 +1,5 @@
 {% set name = "wails" %}
-{% set version = "2.9.2" %}
+{% set version = "2.9.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/wailsapp/wails/archive/v{{ version }}.tar.gz
-  sha256: 7bf572b89dd6b60d679073dcdda34b4c0f506ebfe7278337488eac13d15e1297
+  sha256: e9d43fba72b14845ab58cb8cd4daaeaabbb9bc1d57f84171cea554d6778e3cde
 
 build:
   number: 0

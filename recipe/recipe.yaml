@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "3.0.0"
+  version: "3.1.0-nightly.20261027"
 
 package:
   name: wails
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://github.com/wailsapp/wails/archive/v${{ version }}.tar.gz
-  sha256: cd80ce78e70c2bb2580b8454230f068b2ba936bce3c17b4b12bb0b88dc6d3761
+  sha256: f7933c2b67c37df99c8acb4f6db2d2265497e500ec10048af79120a1e2fdf255
 
 build:
   number: 0
